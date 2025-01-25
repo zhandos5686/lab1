@@ -1,3 +1,4 @@
+#Dictionary
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -14,7 +15,13 @@ thisdict = {
 print(thisdict["brand"])
 
 #Duplicates Not Allowed
-Duplicates Not Allowed
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+  "year": 2020
+}
+print(thisdict)
 
 #Dictionary Length
 print(len(thisdict))
@@ -27,12 +34,13 @@ thisdict = {
   "colors": ["red", "white", "blue"]
 }
 
+#type()
 thisdict = {
   "brand": "Ford",
-  "electric": False,
-  "year": 1964,
-  "colors": ["red", "white", "blue"]
+  "model": "Mustang",
+  "year": 1964
 }
-
+print(type(thisdict))
+#The dict() Constructor
 thisdict = dict(name = "John", age = 36, country = "Norway")
 print(thisdict)
