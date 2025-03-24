@@ -11,9 +11,9 @@ clock = pygame.time.Clock()
 pygame.display.set_caption("Mickey clock")
 
 #суреттерді пайда болған экранға енгіземіз
-leftarm = pygame.image.load("images/leftarm.png")
-rightarm = pygame.image.load("images/rightarm.png")
-mainclock = pygame.transform.scale(pygame.image.load("images/clock.png"), (800, 600))
+leftarm = pygame.image.load("c:\\Users\\Zhandos\\Downloads\\githowto\\githowto\\repositories\\lab` 7\\leftarm.png")
+rightarm = pygame.image.load("c:\\Users\\Zhandos\\Downloads\\githowto\\githowto\\repositories\\lab` 7\\rightarm.png")
+mainclock = pygame.transform.scale(pygame.image.load("c:\\Users\\Zhandos\\Downloads\\githowto\\githowto\\repositories\\lab` 7\\clock.png"), (800, 600))
 
 done = False
 

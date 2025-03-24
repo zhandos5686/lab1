@@ -5,7 +5,7 @@ pygame.init()
 
 playlist = []
 # музыкалар орналасқан жерге path 
-music_folder = "/C:\Users\Zhandos\Downloads\githowto\githowto\repositories\lab 7"
+music_folder = "C:\Users\Zhandos\Downloads\githowto\githowto\repositories\lab`7"
 allmusic = os.listdir(music_folder)
 
 # playlist-қа .mp3 деп аяқталса қосамыз 
